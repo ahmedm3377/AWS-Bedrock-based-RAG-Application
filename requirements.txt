@@ -1,0 +1,12 @@
+langchain
+langchain-community
+python-dotenv
+fastapi
+uvicorn
+boto3
+pinecone
+python-multipart
+pypdf
+openai
+mangum
+pydantic
