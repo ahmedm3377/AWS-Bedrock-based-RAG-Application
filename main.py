@@ -3,9 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from mangum import Mangum
 from pydantic import BaseModel
 from dotenv import load_dotenv
-from .pdf_processor import PDFProcessor
-from .vector_store import VectorStore
-from .rag_engine import RAGEngine
+from app.pdf_processor import PDFProcessor
+from app.vector_store import VectorStore
+from app.rag_engine import RAGEngine
 
 # Load environment variables
 load_dotenv()
